@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+html, body, #map {
+    height: 100%;
+    width: 100%;
+}
+
+#search {
+    position: absolute;;
+    left: 45px;
+    top: 10px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 2px rgb(150, 150, 150);
+    margin: 5px;
+}
+#addr {
+    width: 200px;
+}
+
+#results ol li {
+    color: blue;
+}
+
+#results ol li:hover {
+    cursor: pointer;
+    color: black;
+}
+
+#close {
+    color: red;
+}
+
+#close:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#photos {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    margin: auto;
+    overflow: auto;
+    height: 200px;
+    border-top: solid rgb(150, 150, 150);
+}
+
+img {
+    height: 180px;
+    display:block;
+    float:left;
+}
